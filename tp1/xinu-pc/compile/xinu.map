@@ -1437,7 +1437,7 @@ Guión del enlazador y mapa de memoria
                 0x0000000000114e5d                programa_C
                 0x0000000000114f08                sndch
  .text          0x0000000000114f4c       0xa4 binaries/ex3.o
-                0x0000000000114f4c                programa_Dos
+                0x0000000000114f4c                programa_D
                 0x0000000000114fc4                snch
  .text          0x0000000000114ff0       0x2b binaries/helloWorld.o
                 0x0000000000114ff0                mi_programa
@@ -1646,48 +1646,48 @@ Guión del enlazador y mapa de memoria
  *fill*         0x000000000011b283        0x1 
  .rodata        0x000000000011b284      0x154 binaries/tftp.o
  .rodata        0x000000000011b3d8       0x14 binaries/2.o
- .rodata        0x000000000011b3ec       0x9a binaries/cmdtab.o
- .rodata        0x000000000011b486       0x1f binaries/ejercicio_Cinco.o
- .rodata        0x000000000011b4a5       0x10 binaries/ex3.o
- .rodata        0x000000000011b4b5        0xe binaries/helloWorld.o
- *fill*         0x000000000011b4c3        0x1 
- .rodata        0x000000000011b4c4       0x86 binaries/mouse.o
- *fill*         0x000000000011b54a        0x2 
- .rodata        0x000000000011b54c      0x271 binaries/shell.o
- .rodata        0x000000000011b7bd       0x28 binaries/xsh_argecho.o
- *fill*         0x000000000011b7e5        0x3 
- .rodata        0x000000000011b7e8      0x123 binaries/xsh_arp.o
- *fill*         0x000000000011b90b        0x1 
- .rodata        0x000000000011b90c       0xc9 binaries/xsh_cat.o
- .rodata        0x000000000011b9d5       0x19 binaries/xsh_clear.o
- *fill*         0x000000000011b9ee        0x2 
- .rodata        0x000000000011b9f0      0x1c3 binaries/xsh_date.o
- .rodata        0x000000000011bbb3       0x5d binaries/xsh_devdump.o
- .rodata        0x000000000011bc10        0x9 binaries/xsh_echo.o
- *fill*         0x000000000011bc19        0x3 
- .rodata        0x000000000011bc1c      0x169 binaries/xsh_help.o
- *fill*         0x000000000011bd85        0x3 
- .rodata        0x000000000011bd88      0x12e binaries/xsh_kill.o
- *fill*         0x000000000011beb6        0x2 
- .rodata        0x000000000011beb8      0x266 binaries/xsh_memdump.o
- *fill*         0x000000000011c11e        0x2 
- .rodata        0x000000000011c120      0x225 binaries/xsh_memstat.o
- *fill*         0x000000000011c345        0x3 
- .rodata        0x000000000011c348      0x1b0 binaries/xsh_netinfo.o
- .rodata        0x000000000011c4f8      0x1a1 binaries/xsh_ping.o
- *fill*         0x000000000011c699        0x3 
- .rodata        0x000000000011c69c      0x1a8 binaries/xsh_ps.o
- .rodata        0x000000000011c844       0xeb binaries/xsh_sleep.o
- *fill*         0x000000000011c92f        0x1 
- .rodata        0x000000000011c930      0x1b8 binaries/xsh_udpdump.o
- .rodata        0x000000000011cae8      0x23b binaries/xsh_udpecho.o
- *fill*         0x000000000011cd23        0x1 
- .rodata        0x000000000011cd24      0x12b binaries/xsh_udpserver.o
- *fill*         0x000000000011ce4f        0x1 
- .rodata        0x000000000011ce50      0x105 binaries/xsh_uptime.o
-                0x000000000011cf55                etext = ABSOLUTE (.)
+ .rodata        0x000000000011b3ec       0x9e binaries/cmdtab.o
+ .rodata        0x000000000011b48a       0x1f binaries/ejercicio_Cinco.o
+ .rodata        0x000000000011b4a9       0x10 binaries/ex3.o
+ .rodata        0x000000000011b4b9        0xe binaries/helloWorld.o
+ *fill*         0x000000000011b4c7        0x1 
+ .rodata        0x000000000011b4c8       0x86 binaries/mouse.o
+ *fill*         0x000000000011b54e        0x2 
+ .rodata        0x000000000011b550      0x271 binaries/shell.o
+ .rodata        0x000000000011b7c1       0x28 binaries/xsh_argecho.o
+ *fill*         0x000000000011b7e9        0x3 
+ .rodata        0x000000000011b7ec      0x123 binaries/xsh_arp.o
+ *fill*         0x000000000011b90f        0x1 
+ .rodata        0x000000000011b910       0xc9 binaries/xsh_cat.o
+ .rodata        0x000000000011b9d9       0x19 binaries/xsh_clear.o
+ *fill*         0x000000000011b9f2        0x2 
+ .rodata        0x000000000011b9f4      0x1c3 binaries/xsh_date.o
+ .rodata        0x000000000011bbb7       0x5d binaries/xsh_devdump.o
+ .rodata        0x000000000011bc14        0x9 binaries/xsh_echo.o
+ *fill*         0x000000000011bc1d        0x3 
+ .rodata        0x000000000011bc20      0x169 binaries/xsh_help.o
+ *fill*         0x000000000011bd89        0x3 
+ .rodata        0x000000000011bd8c      0x12e binaries/xsh_kill.o
+ *fill*         0x000000000011beba        0x2 
+ .rodata        0x000000000011bebc      0x266 binaries/xsh_memdump.o
+ *fill*         0x000000000011c122        0x2 
+ .rodata        0x000000000011c124      0x225 binaries/xsh_memstat.o
+ *fill*         0x000000000011c349        0x3 
+ .rodata        0x000000000011c34c      0x1b0 binaries/xsh_netinfo.o
+ .rodata        0x000000000011c4fc      0x1a1 binaries/xsh_ping.o
+ *fill*         0x000000000011c69d        0x3 
+ .rodata        0x000000000011c6a0      0x1a8 binaries/xsh_ps.o
+ .rodata        0x000000000011c848       0xeb binaries/xsh_sleep.o
+ *fill*         0x000000000011c933        0x1 
+ .rodata        0x000000000011c934      0x1b8 binaries/xsh_udpdump.o
+ .rodata        0x000000000011caec      0x23b binaries/xsh_udpecho.o
+ *fill*         0x000000000011cd27        0x1 
+ .rodata        0x000000000011cd28      0x12b binaries/xsh_udpserver.o
+ *fill*         0x000000000011ce53        0x1 
+ .rodata        0x000000000011ce54      0x105 binaries/xsh_uptime.o
+                0x000000000011cf59                etext = ABSOLUTE (.)
                 0x000000000011d000                . = ALIGN (0x1000)
- *fill*         0x000000000011cf55       0xab 
+ *fill*         0x000000000011cf59       0xa7 
 
 .plt.got        0x000000000011d000        0x0
  .plt.got       0x000000000011d000        0x0 binaries/start.o
@@ -2182,45 +2182,45 @@ Guión del enlazador y mapa de memoria
  .data          0x0000000000123d8c        0x4 binaries/cmdtab.o
                 0x0000000000123d8c                ncmd
  *fill*         0x0000000000123d90       0x10 
- .data.rel.ro   0x0000000000123da0      0x120 binaries/cmdtab.o
+ .data.rel.ro   0x0000000000123da0      0x12c binaries/cmdtab.o
                 0x0000000000123da0                cmdtab
- .data          0x0000000000123ec0        0x0 binaries/ejercicio_Cinco.o
- .data          0x0000000000123ec0        0x0 binaries/ex3.o
- .data          0x0000000000123ec0        0x0 binaries/helloWorld.o
- .data          0x0000000000123ec0        0x0 binaries/lexan.o
- .data          0x0000000000123ec0        0x0 binaries/mouse.o
- .data          0x0000000000123ec0        0x0 binaries/shell.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_argecho.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_arp.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_cat.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_clear.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_date.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_devdump.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_echo.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_exit.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_help.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_kill.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_memdump.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_memstat.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_netinfo.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_ping.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_ps.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_sleep.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_udpdump.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_udpecho.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_udpserver.o
- .data          0x0000000000123ec0        0x0 binaries/xsh_uptime.o
- .data          0x0000000000123ec0        0x0 binaries/clkdisp.o
- .data          0x0000000000123ec0        0x0 binaries/ctxsw.o
- .data          0x0000000000123ec0        0x0 binaries/intr.o
- .data          0x0000000000123ec0        0x0 binaries/ttydispatch.o
- .data          0x0000000000123ec0        0x0 binaries/ethdispatch.o
- .data          0x0000000000123ec0        0x0 binaries/micedispatch.o
- .data          0x0000000000123ec0        0x0 binaries/kbddispatch.o
-                0x0000000000123ec0                edata = ABSOLUTE (.)
-                0x0000000000123ec0                _edata = ABSOLUTE (.)
+ .data          0x0000000000123ecc        0x0 binaries/ejercicio_Cinco.o
+ .data          0x0000000000123ecc        0x0 binaries/ex3.o
+ .data          0x0000000000123ecc        0x0 binaries/helloWorld.o
+ .data          0x0000000000123ecc        0x0 binaries/lexan.o
+ .data          0x0000000000123ecc        0x0 binaries/mouse.o
+ .data          0x0000000000123ecc        0x0 binaries/shell.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_argecho.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_arp.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_cat.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_clear.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_date.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_devdump.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_echo.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_exit.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_help.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_kill.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_memdump.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_memstat.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_netinfo.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_ping.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_ps.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_sleep.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_udpdump.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_udpecho.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_udpserver.o
+ .data          0x0000000000123ecc        0x0 binaries/xsh_uptime.o
+ .data          0x0000000000123ecc        0x0 binaries/clkdisp.o
+ .data          0x0000000000123ecc        0x0 binaries/ctxsw.o
+ .data          0x0000000000123ecc        0x0 binaries/intr.o
+ .data          0x0000000000123ecc        0x0 binaries/ttydispatch.o
+ .data          0x0000000000123ecc        0x0 binaries/ethdispatch.o
+ .data          0x0000000000123ecc        0x0 binaries/micedispatch.o
+ .data          0x0000000000123ecc        0x0 binaries/kbddispatch.o
+                0x0000000000123ecc                edata = ABSOLUTE (.)
+                0x0000000000123ecc                _edata = ABSOLUTE (.)
                 0x0000000000124000                . = ALIGN (0x1000)
- *fill*         0x0000000000123ec0      0x140 
+ *fill*         0x0000000000123ecc      0x134 
 
 .got            0x0000000000124000        0x0
  .got           0x0000000000124000        0x0 binaries/start.o

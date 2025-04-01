@@ -77,7 +77,9 @@ extern	shellcmd  xsh_uptime	(int32, char *[]);
 extern	shellcmd  xsh_help	(int32, char *[]);
 /*hello world*/
 extern void mi_programa(void);
-
+//ejercicio 4
 extern void programa_Uno(void);
-
+//ejecicio 6
+extern void programa_D(void);
+//ejercicio 5
 extern void programa_C(void);

@@ -30,7 +30,8 @@ const	struct	cmdent	cmdtab[] = {
 	{"?",		FALSE,	xsh_help},
 	{"helloWorld", FALSE, mi_programa},
     {"2", FALSE, programa_Uno},
-	{"ejercicio_Cinco", FALSE, programa_C}
+	{"ejercicio_Cinco", FALSE, programa_C},
+	{"ex3",FALSE, programa_D}
    	
 };
 
