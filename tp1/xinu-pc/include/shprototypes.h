@@ -83,3 +83,5 @@ extern void programa_Uno(void);
 extern void programa_D(void);
 //ejercicio 5
 extern void programa_C(void);
+//primos(ejercicio 2 tp2)
+extern void primos(void);
