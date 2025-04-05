@@ -32,7 +32,8 @@ const	struct	cmdent	cmdtab[] = {
     {"2", FALSE, programa_Uno},
 	{"ejercicio_Cinco", FALSE, programa_C},
 	{"ex3",FALSE, programa_D},
-	{"primosNo",FALSE,primos}
+	{"primosNo",FALSE,primos},
+	{"ahorcadoPort",FALSE,ahorcado}
    	
 };
 
